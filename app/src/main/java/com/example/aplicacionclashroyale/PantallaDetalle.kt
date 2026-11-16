@@ -19,7 +19,7 @@ import com.example.aplicacionclashroyale.ui.theme.AplicacionClashRoyaleTheme
 
 @Composable
 fun PantallaDetalle(
-    carta: `Carta`,
+    carta: Carta,
     volverLista: () -> Unit,
     editarCarta: () -> Unit,
     eliminarCarta: () -> Unit
